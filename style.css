@@ -30,15 +30,9 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
-}
-
-/* código omitido */
-
-nav a {
-    text-decoration: none;
     color: var(--bg-color);
      margin: 0rem 2rem 1rem 0rem;
+     font-size: 1.2rem;
 }
 
 /* código omitido */
@@ -50,3 +44,20 @@ header {
 }
 
 /* código omitido */
+
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
